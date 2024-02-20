@@ -1,0 +1,37 @@
+To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password'; then to grant all access to the database (e.g. my_db), use GRANT Syntax, e.g.
+
+GRANT ALL ON my_db.* TO 'new_user'@'localhost'; Where ALL (priv_type) can be replaced with specific privilege such as SELECT, INSERT, UPDATE, ALTER, etc.
+
+Then to reload newly assigned permissions run:
+
+FLUSH PRIVILEGES;
+create-user.md down vote
+Syntax
+
+To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
+create-user.md 
+down vote
+Syntax
+
+To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
+then to grant all access to the database (e.g. my_db), use GRANT Syntax, e.g.
+
+GRANT ALL ON my_db.* TO 'new_user'@'localhost';
+Where ALL (priv_type) can be replaced with specific privilege such as SELECT, INSERT, UPDATE, ALTER, etc.
+
+Then to reload newly assigned permissions run:
+
+FLUSH PRIVILEGES;
+down vote	
+Syntax	
+
+To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:	To create user in MySQL/MariaDB 5.7.6 and higher, use CREATE USER syntax:
+
+
+CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';	CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
